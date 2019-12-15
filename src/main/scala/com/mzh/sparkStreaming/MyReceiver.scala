@@ -52,6 +52,8 @@ class MySocktReceiver(host:String,port:Int) extends Receiver[String](StorageLeve
           recieiver()
         }
       }).start()
+
+
   }
 
   override def onStop(): Unit = {
